@@ -1,6 +1,9 @@
 import React from 'react';
 
 function NewEvent() {
+
+    console.log("Rendering NewEvent.");
+
     return (
         <div>
             Lol, cool ranch.
@@ -8,4 +11,4 @@ function NewEvent() {
     );
 }
 
-export default App;
+export default NewEvent;
