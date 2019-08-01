@@ -6,7 +6,7 @@ function Home() {
 
   return (
     <div>
-        Lol, bad ranch.
+        Computer Saiyan 0100, Ultra Instinct
     </div>
   );
 }

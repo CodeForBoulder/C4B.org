@@ -6,7 +6,7 @@ function NewEvent() {
 
     return (
         <div>
-            Lol, cool ranch.
+            In the "NewEvent."
         </div>
     );
 }
