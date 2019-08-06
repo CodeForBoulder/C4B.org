@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { Route, Redirect, Link, BrowserRouter as Router } from 'react-router-dom'
-import Home from './pages/Home';
-import NewEvent from './pages/NewEvent'
-import WhoWeAre from './pages/WhoWeAre'
-import CodeOfConduct from './pages/CodeOfConduct'
-import MeetingMinutes from './pages/MeetingMinutes'
-import ProjectProposals from './pages/ProjectProposals'
-import OpenDataSources from './pages/OpenDataSources'
-import FundingSources from './pages/FundingSources'
-import GetInvolved from './pages/GetInvolved'
+import { Route, BrowserRouter as Router } from 'react-router-dom'
+import Home from './pages/home/Home';
+import NewEvent from './pages/newEvent/NewEvent'
+import WhoWeAre from './pages/whoWeAre/WhoWeAre'
+import CodeOfConduct from './pages/codeOfConduct/CodeOfConduct'
+import MeetingMinutes from './pages/meetingMinutes/MeetingMinutes'
+import ProjectProposals from './pages/projectProposals/ProjectProposals'
+import OpenDataSources from './pages/openDataSources/OpenDataSources'
+import FundingSources from './pages/fundingSources/FundingSources'
+import GetInvolved from './pages/getInvolved/GetInvolved'
 
 const routing = (
     <Router>
