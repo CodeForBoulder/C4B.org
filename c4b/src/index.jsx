@@ -1,6 +1,5 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import React, {Component} from 'react';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import Home from './pages/home/Home';
 import NewEvent from './pages/newEvent/NewEvent'
@@ -11,8 +10,9 @@ import ProjectProposals from './pages/projectProposals/ProjectProposals'
 import OpenDataSources from './pages/openDataSources/OpenDataSources'
 import FundingSources from './pages/fundingSources/FundingSources'
 import GetInvolved from './pages/getInvolved/GetInvolved'
+import './index.css';
 
-const routing = (
+var routing = (
     <Router>
         <div>
             <Route path="/home" component={Home} />
@@ -28,4 +28,22 @@ const routing = (
     </Router>
 )
 
-ReactDOM.render(routing, document.getElementById('root'));
+class Root extends Component {
+    render() {
+        return (
+        <div>
+            <div class="header">
+                <p> header </p>
+            </div>
+            <div class="body">
+                {routing}
+            </div>
+            <div class="footer">
+                <p> footer here, lol</p>
+            </div>
+        </div> 
+        )       
+    }
+}
+
+ReactDOM.render(<Root/>, document.getElementById('root'));
