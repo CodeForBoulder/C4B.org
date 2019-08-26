@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom';
 import React, {Component} from 'react';
 import { Route, BrowserRouter as Router } from 'react-router-dom'
+import Header from './header/Header'
 import Home from './pages/home/Home';
 import NewEvent from './pages/newEvent/NewEvent'
 import WhoWeAre from './pages/whoWeAre/WhoWeAre'
@@ -10,6 +11,7 @@ import ProjectProposals from './pages/projectProposals/ProjectProposals'
 import OpenDataSources from './pages/openDataSources/OpenDataSources'
 import FundingSources from './pages/fundingSources/FundingSources'
 import GetInvolved from './pages/getInvolved/GetInvolved'
+import Footer from './footer/Footer'
 import './index.css';
 
 var routing = (
@@ -17,7 +19,7 @@ var routing = (
         <div>
             <Route path="/home" component={Home} />
             <Route path="/new-events" component={NewEvent} />
-            <Route path="/who-we-are" component={WhoWeAre} />
+            <Route path="/work-with-us" component={WhoWeAre} />
             <Route path="/code-of-conduct" component={CodeOfConduct} />
             <Route path="/meeting-minutes" component={MeetingMinutes} />
             <Route path="/project-proposals" component={ProjectProposals}/>
@@ -32,15 +34,11 @@ class Root extends Component {
     render() {
         return (
         <div>
-            <div class="header">
-                <p> header </p>
-            </div>
-            <div class="body">
+            <Header/>
+            <div>
                 {routing}
             </div>
-            <div class="footer">
-                <p> footer here, lol</p>
-            </div>
+            <Footer/>
         </div> 
         )       
     }
