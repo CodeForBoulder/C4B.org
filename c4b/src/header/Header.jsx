@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import "./Header.css";
 
 class Header extends Component {
 
@@ -6,11 +7,11 @@ class Header extends Component {
   // https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
   render() {
     return( 
-      <nav class="navbar navbar-default">
-        <div class="navbar-header">
+      <nav className="navbar navbar-default">
+        <div className="navbar-header">
           <img className="cb-logo" src="http://static1.squarespace.com/static/5ab1bc5412b13f4dc838bc43/t/5ab1c7c1562fa7620d315119/1565828100449/" width="50" height="50"/>
         </div>
-        <ul id="header-right" className="nav navbar-nav navbar-right">
+        <ul className="nav navbar-nav navbar-right">
           <li><a href="/home"> home </a> </li>
           <li><a href="/new-events"> New Events </a> </li>
           <li><a href="/who-we-are"> What We Do </a> </li>
