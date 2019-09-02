@@ -19,11 +19,12 @@ var routing = (
         <div>
             <Route path="/home" component={Home} />
             <Route path="/new-events" component={NewEvent} />
-            <Route path="/work-with-us" component={WhoWeAre} />
+            <Route path="/who-we-are" component={WhoWeAre} />
+            <Route path="/projects" component={ProjectProposals} />
             <Route path="/code-of-conduct" component={CodeOfConduct} />
             <Route path="/meeting-minutes" component={MeetingMinutes} />
             <Route path="/project-proposals" component={ProjectProposals}/>
-            <Route path="/open-data-sources" component={OpenDataSources} />
+            <Route path="/open-data-sources" component={OpenDataSources}/>
             <Route path="/funding-sources" component={FundingSources} />
             <Route path="/get-involved" component={GetInvolved} />
         </div>

@@ -1,3 +1,10 @@
-li {
-    margin-right: 15px;
+.navbar-right {
+    margin-right: 20px;
+}
+
+.dropdown-toggle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #777;
+    background-color: #f8f8f8;
 }
