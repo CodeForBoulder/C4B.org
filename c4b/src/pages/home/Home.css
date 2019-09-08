@@ -8,16 +8,16 @@
     width: 100%;
 }
 
-.makers-and-doers {
+#makers-and-doers {
     width: 100%;
     height: 450px;
     margin: 0;
     padding: 0;
 }
 
-.helping {
+#helping {
     position: absolute;
-    top: 10%;
+    top: 3%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -25,9 +25,9 @@
     font-weight: bold;
 }
 
-.makers-and-doers-text {
+#makers-and-doers-text {
     position: absolute;
-    top: 22%;
+    top: 7%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -35,9 +35,9 @@
     font-weight: bold;
 }
 
-.improve-life-in-our-city {
+#improve-life-in-our-city {
     position: absolute;
-    top: 31%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -47,7 +47,7 @@
 
 #join-us-button {
     position: absolute;
-    top: 40%;
+    top: 13%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -79,4 +79,46 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
+}
+
+#donate-image {
+    margin: 20px
+}
+
+#meetup-image {
+    margin: 20px;
+}
+
+#active-projects {
+    margin: 20px;
+}
+
+#check-us-out-image {
+    margin: 20px;
+}
+
+#propose-a-project-image {
+    margin: 20px;
+}
+
+#our-partners-text {
+    margin: 50px;
+}
+
+#code-for-america-logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px
+}
+
+#city-for-boulder-logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#upslope-logo {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
 }

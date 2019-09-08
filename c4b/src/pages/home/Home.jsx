@@ -7,10 +7,10 @@ class Home extends Component {
     return (
       <div className="container">
         <div id="home-welcome" className="row">
-          <img className="makers-and-doers" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521928410064-UTLIMEOC2NU09DR8NXFV/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/highres_440613770.jpeg" height="200px"/>
-          <div className="helping"> Helping </div>
-          <div className="makers-and-doers-text">MAKERS AND DOERS</div>
-          <div className="improve-life-in-our-city">IMPROVE LIFE IN OUR CITY</div>
+          <img id="makers-and-doers" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521928410064-UTLIMEOC2NU09DR8NXFV/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/highres_440613770.jpeg" height="200px"/>
+          <div id="helping"> Helping </div>
+          <div id="makers-and-doers-text">MAKERS AND DOERS</div>
+          <div id="improve-life-in-our-city">IMPROVE LIFE IN OUR CITY</div>
           <a id="join-us-button" className="btn" href="/get-involved"> JOIN US </a> 
         </div>
         <div id="who-we-are" className="row">
@@ -30,7 +30,24 @@ class Home extends Component {
           <img id="see-what-weve-been-up-to-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1564624062987-4U2ROMZJERM6KFED8THI/ke17ZwdGBToddI8pDm48kKkQRVolMIxfUPitEAfxi-9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIBACqBudo3hD3yJMRucL-tAyXodZG11vxwjIEMuc29j8KMshLAGzx4R3EDFOm1kBS/Screenshot%2B2019-07-29%2B14.28.02.jpg?format=750w" />
           <div className="see-what-weve-been-up-to-text"> See what we’ve been up to </div>
         </div>
+        <div id="donate-and_meetup" className="row">
+          <img id="donate-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521931017805-H8WP4UA2R667SHM8BNJB/ke17ZwdGBToddI8pDm48kJ1oJoOIxBAgRD2ClXVCmKFZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpziSlY8A1LmVReJFCynOXqeaWYLb3HWLzCmFZz9oDHtK-zoXiGli2Az6uRt_tQQ38k/laptop.jpeg?format=500w"/>
+          <img id="meetup-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1564623817024-BICNPBBJ3DIDQLDKU46L/ke17ZwdGBToddI8pDm48kEfTvzXXYBW4Yy62g30dv3oUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc9DHWRhb4IbnGEYHSPLUiHs8Lj2jFyM9CwYZ0SMXh17FqYI5yeLqn5FG2K4Bphen1/meetup.jpg?format=500w"/>
+        </div>
         <div className="row">
+          <img id="active-projects" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521948000777-JCLYYE2LQFD996XF2J0Q/ke17ZwdGBToddI8pDm48kGdNgrUkOv0Ii4_J_JKU_fgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKccyOedkLA03PAD8PGR5dO2lFk_fcJdgTeARpiYlvRDZuh8igMpaNvwiBLaKW5H37l/flatirons.jpg?format=750w"/>
+        </div>
+        <div className="row">
+          <img id="check-us-out-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1564623875703-5NGRI4GLBUDK7QWWA3VI/ke17ZwdGBToddI8pDm48kHUzxcQwd2DgHE3KO6VtZClZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIjemT7TLA_6Za-g0iyqDFHfh0kLGIF9yLJqKkHdIutdkKMshLAGzx4R3EDFOm1kBS/github.jpg"/>
+          <img id="propose-a-project-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521930980140-TL6C25BL6A85TB4JGMX2/ke17ZwdGBToddI8pDm48kCX-V5vw-8h9IBXN10-_8XN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0p4Wyba38KfG317vYluk45_zZdtnDCZTLKcP2mivxmYi50xvY5saIGKMgOza9mH4XA/highres_465846054.jpeg?format=500w"/>
+        </div>
+        <div id="our-partners-text" className="row">
+          <h3>OUR PARTNERS</h3>
+        </div>
+        <div id="sponsor-images" className="image">
+          <img id="code-for-america-logo" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521948414169-O6DQBFBKO58EUX0KH7JW/ke17ZwdGBToddI8pDm48kLXCf88_9uNTKXkq27cF4sB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmwbA6upbL5Bu97tJociXJklKprRMdH2Tl4F1PjaoPT3YUs5wkl5ojCV1O900UJ7ME/CfA_logo_metatag_square.png"/>
+          <img id="city-for-boulder-logo" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521927471687-65TRJQBIPRYUI93CK12Q/ke17ZwdGBToddI8pDm48kMAUROnDFr3su_77ZboD82lZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI9u43hzOHsj6Ny8PVwwQJLM7purG1USBBUKHPZZvEiYE/cityofboulder.png?format=300w"/>
+          <img id="upslope-logo" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1557691369395-6Z67300WP8749I6T4LQ1/ke17ZwdGBToddI8pDm48kCd2h7a6GrUKx5UQMFqB6ClZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-tThsz3ASEmE9lZHBq2gdJna90oumnJklVcZ7OMnuyEgw/upslope.jpeg?format=300w"/>
         </div>
       </div>
     )
