@@ -23,17 +23,37 @@
 
 #helping-text {
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 50%;
     transform: translate( -50%, -50% );
     color: white;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#makers-and-doers-text {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#improve-life-text {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 30px;
     font-weight: bold;
 }
 
 #join-us-button {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate( -50%, -50% );
     color: white;
@@ -42,12 +62,34 @@
     font-weight: bold;
 }
 
+#weve-been-upto {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+#weve-been-upto-image {
+    width: 500px;
+    height: 200px;
+}
+
+#weve-been-upto-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 #who-we-are {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 35%;
     text-align: left;
+    font-size: 20px;
 }
 
 #our-partners-text {

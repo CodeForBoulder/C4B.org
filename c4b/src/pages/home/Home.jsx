@@ -10,6 +10,8 @@ class Home extends Component {
           <div className="thumbnail">
             <img id="makers-and-doers" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521928410064-UTLIMEOC2NU09DR8NXFV/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/highres_440613770.jpeg" height="200px"/>
             <p id="helping-text">HELPING</p>
+            <p id="makers-and-doers-text">MAKERS AND DOERS</p>
+            <p id="improve-life-text">IMPROVE LIFE IN OUR CITY</p>
             <a id="join-us-button" className="btn" href="/get-involved"> JOIN US </a> 
           </div>
         </div>
@@ -25,6 +27,10 @@ class Home extends Component {
             Founded as a brigade of Code for America, Code for Boulder hosts a weekly Meetup, hackathons, 
             and acts as an incubator for civic tech in the community.
           </p>
+        </div>
+        <div id="weve-been-upto" className="row">
+          <img id="weve-been-upto-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1564624062987-4U2ROMZJERM6KFED8THI/ke17ZwdGBToddI8pDm48kKkQRVolMIxfUPitEAfxi-9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIBACqBudo3hD3yJMRucL-tAyXodZG11vxwjIEMuc29j8KMshLAGzx4R3EDFOm1kBS/Screenshot%2B2019-07-29%2B14.28.02.jpg?format=750w"/>    
+          <p id="weve-been-upto-text">SEE WHAT WE'VE BEEN UP TO</p>
         </div>
         <div id="our-partners-text" className="row">
           <h3>OUR PARTNERS</h3>
