@@ -32,6 +32,16 @@ class Home extends Component {
           <img id="weve-been-upto-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1564624062987-4U2ROMZJERM6KFED8THI/ke17ZwdGBToddI8pDm48kKkQRVolMIxfUPitEAfxi-9Zw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIBACqBudo3hD3yJMRucL-tAyXodZG11vxwjIEMuc29j8KMshLAGzx4R3EDFOm1kBS/Screenshot%2B2019-07-29%2B14.28.02.jpg?format=750w"/>    
           <p id="weve-been-upto-text">SEE WHAT WE'VE BEEN UP TO</p>
         </div>
+        <div id="donate-and-meetup" className="row">
+          <div id="donate">
+            <img id="donate-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521931017805-H8WP4UA2R667SHM8BNJB/ke17ZwdGBToddI8pDm48kJ1oJoOIxBAgRD2ClXVCmKFZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpziSlY8A1LmVReJFCynOXqeaWYLb3HWLzCmFZz9oDHtK-zoXiGli2Az6uRt_tQQ38k/laptop.jpeg?format=500w"/>    
+            <p id="donate-text">DONATE</p>
+          </div>
+          <div id="meetup">
+            <img id="meetup-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1564623817024-BICNPBBJ3DIDQLDKU46L/ke17ZwdGBToddI8pDm48kEfTvzXXYBW4Yy62g30dv3oUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc9DHWRhb4IbnGEYHSPLUiHs8Lj2jFyM9CwYZ0SMXh17FqYI5yeLqn5FG2K4Bphen1/meetup.jpg?format=500w"/>    
+            <p id="meetup-text">MEET UP</p>
+          </div>
+        </div>
         <div id="our-partners-text" className="row">
           <h3>OUR PARTNERS</h3>
         </div>

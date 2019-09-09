@@ -92,6 +92,43 @@
     font-size: 20px;
 }
 
+#donate-and-meetup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#donate {
+    margin: 20px;
+    position: relative;
+}
+
+#meetup {
+    margin: 20px;
+    position: relative;
+}
+
+#donate-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#meetup-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 #our-partners-text {
     margin: 50px;
 }
