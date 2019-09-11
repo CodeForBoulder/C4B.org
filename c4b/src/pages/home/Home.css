@@ -151,6 +151,53 @@
     font-weight: bold;
 }
 
+#github-and-proposals {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#github {
+    margin: 20px;
+    position: relative;
+}
+
+#github-image {
+    width: 500px;
+    height: 300px;
+}
+
+#github-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#proposals {
+    margin: 20px;
+    position: relative;
+}
+
+#proposals-image {
+    width: 500px;
+    height: 300px;
+}
+
+#proposal-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 #our-partners-text {
     margin: 50px;
 }

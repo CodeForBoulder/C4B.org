@@ -46,6 +46,16 @@ class Home extends Component {
           <img id="active-projects-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521948000777-JCLYYE2LQFD996XF2J0Q/ke17ZwdGBToddI8pDm48kGdNgrUkOv0Ii4_J_JKU_fgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKccyOedkLA03PAD8PGR5dO2lFk_fcJdgTeARpiYlvRDZuh8igMpaNvwiBLaKW5H37l/flatirons.jpg?format=750w"/>
           <p id="active-projects-text">ACTIVE PROJECTS</p>
         </div>
+        <div id="github-and-proposals" className="row">
+          <div id="github">
+            <img id="github-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1564623875703-5NGRI4GLBUDK7QWWA3VI/ke17ZwdGBToddI8pDm48kHUzxcQwd2DgHE3KO6VtZClZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIjemT7TLA_6Za-g0iyqDFHfh0kLGIF9yLJqKkHdIutdkKMshLAGzx4R3EDFOm1kBS/github.jpg?format=500w"/>    
+            <p id="github-text">CHECK US OUT</p>
+          </div>
+          <div id="proposals">
+            <img id="proposals-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521930980140-TL6C25BL6A85TB4JGMX2/ke17ZwdGBToddI8pDm48kCX-V5vw-8h9IBXN10-_8XN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0p4Wyba38KfG317vYluk45_zZdtnDCZTLKcP2mivxmYi50xvY5saIGKMgOza9mH4XA/highres_465846054.jpeg?format=500w"/>    
+            <p id="proposal-text">PROPOSE A PROJECT</p>
+          </div>
+        </div>
         <div id="our-partners-text" className="row">
           <h3>OUR PARTNERS</h3>
         </div>
