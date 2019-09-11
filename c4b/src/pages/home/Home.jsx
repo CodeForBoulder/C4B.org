@@ -42,6 +42,10 @@ class Home extends Component {
             <p id="meetup-text">MEET UP</p>
           </div>
         </div>
+        <div id="active-projects" className="row">
+          <img id="active-projects-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1521948000777-JCLYYE2LQFD996XF2J0Q/ke17ZwdGBToddI8pDm48kGdNgrUkOv0Ii4_J_JKU_fgUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKccyOedkLA03PAD8PGR5dO2lFk_fcJdgTeARpiYlvRDZuh8igMpaNvwiBLaKW5H37l/flatirons.jpg?format=750w"/>
+          <p id="active-projects-text">ACTIVE PROJECTS</p>
+        </div>
         <div id="our-partners-text" className="row">
           <h3>OUR PARTNERS</h3>
         </div>
