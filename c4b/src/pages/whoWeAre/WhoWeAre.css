@@ -1,0 +1,18 @@
+#who-we-are-image-row {
+    position: relative;
+    display: inline-block;
+}
+
+#who-we-are-image {
+    width: 400px;
+    height: 200px;
+    color: rgba(26,26,26,.7);
+}
+
+#who-we-are-text {
+    position: absolute;
+    font-size: 30px;
+    color: grey;
+    top: 45%;
+    left: 25%;
+}

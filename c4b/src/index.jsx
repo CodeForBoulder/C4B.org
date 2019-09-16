@@ -11,6 +11,7 @@ import ProjectProposals from './pages/projectProposals/ProjectProposals'
 import OpenDataSources from './pages/openDataSources/OpenDataSources'
 import FundingSources from './pages/fundingSources/FundingSources'
 import GetInvolved from './pages/getInvolved/GetInvolved'
+import Projects from './pages/currentProjects/Projects'
 import Footer from './footer/Footer'
 import './index.css';
 
@@ -20,7 +21,7 @@ var routing = (
             <Route path="/home" component={Home} />
             <Route path="/new-events" component={NewEvent} />
             <Route path="/who-we-are" component={WhoWeAre} />
-            <Route path="/projects" component={ProjectProposals} />
+            <Route path="/projects" component={Projects} />
             <Route path="/code-of-conduct" component={CodeOfConduct} />
             <Route path="/meeting-minutes" component={MeetingMinutes} />
             <Route path="/project-proposals" component={ProjectProposals}/>
