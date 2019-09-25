@@ -58,6 +58,17 @@
     height: 200px;
 }
 
+#upswyng-header {
+    text-align: left;
+    font-size: 20px; 
+}
+
+#upswyng-text {
+    text-align: left;
+    width: 300px;
+    height: auto;
+}
+
 #bodc-image {
     width: 400px;
     height: 200px;

@@ -26,10 +26,11 @@ class Project extends Component  {
                     </div>
                     <div id="project">
                       <img id="upswyng-image" src="https://images.squarespace-cdn.com/content/v1/5ab1bc5412b13f4dc838bc43/1564016203335-DZNBOAI0M2C06XQJP1FH/ke17ZwdGBToddI8pDm48kMsmIZUQl5D8Rk2ZWmgPLyxZw-zPPgdn4jUwVcJE1ZvWEtT5uBSRWt4vQZAgTJucoTqqXjS3CfNDSuuf31e0tVHD9qfZvKXnZz302vBqg0MFjHxLK41_B4gBM6WxBpmivD-3CTWZQ124CTRPXn-dnvM/UPSWYNG+final+logo+set-03%281%29.png?format=500w"/>    
-                      <h4>UpSwyng</h4>
-                      <p id="project-text">
+                      <h4 id="upswyng-header">UpSwyng</h4>
+                      <p id="upswyng-text">
                         Provides information on providers who serve the homeless community in the Boulder area. 
-                        Visit the live site here!
+                        Visit the live site 
+                        <a href="https://upswyng.org/#/charity/Shelter"> here </a>!
                       </p>
                     </div>
                 </div>
