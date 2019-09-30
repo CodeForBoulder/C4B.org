@@ -74,9 +74,21 @@
     height: 200px;
 }
 
+#bodc-header {
+    text-align: left;
+    font-size: 20px;
+}
+
+#bodc-text {
+    text-align: left;
+    width: 300px;
+    height: auto;
+}
+
 #cbep-image {
     width: 300px;
     height: 200px;
+    align-content: top
 }
 
 #project-image {
