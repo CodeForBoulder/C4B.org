@@ -33,6 +33,14 @@
     position: relative;
 }
 
+#city-of-boulder-header {
+    text-align: left;
+}
+
+#city-of-boulder-paragraph {
+    text-align: left;
+}
+
 #boulder-visit-page {
     margin: 20px;
     position: relative;
