@@ -14,11 +14,12 @@ import GetInvolved from './pages/getInvolved/GetInvolved'
 import Projects from './pages/currentProjects/Projects'
 import Footer from './footer/Footer'
 import './index.css';
+import noMatch from './pages/noMatch/noMatch';
 
 var routing = (
     <Router>
         <div>
-            <Route path="/home" component={Home} />
+            <Route path="/" component={Home} />
             <Route path="/new-events" component={NewEvent} />
             <Route path="/who-we-are" component={WhoWeAre} />
             <Route path="/projects" component={Projects} />
@@ -28,6 +29,7 @@ var routing = (
             <Route path="/open-data-sources" component={OpenDataSources}/>
             <Route path="/funding-sources" component={FundingSources} />
             <Route path="/get-involved" component={GetInvolved} />
+            <Route component={noMatch} />
         </div>
     </Router>
 )
