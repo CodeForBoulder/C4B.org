@@ -12,7 +12,7 @@ class Header extends Component {
           <img className="cb-logo" src="http://static1.squarespace.com/static/5ab1bc5412b13f4dc838bc43/t/5ab1c7c1562fa7620d315119/1565828100449/" width="50" height="50"/>
         </div>
         <ul className="nav navbar-nav navbar-right">
-          <li> <a href="/home"> HOME </a> </li>
+          <li> <a href="/"> HOME </a> </li>
           <li> <a href="/new-events"> NEW EVENTS </a> </li>
           <li>
             <div className="dropdown"> 

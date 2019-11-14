@@ -1,9 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './OpenDataSources.css'
 
-class OpenDataSources extends Component {
-
-    render() {
+export default function OpenDataSources() {
         return(
             <div className="container">
                 <div id="open-data-sources" className="row">
@@ -29,7 +27,4 @@ class OpenDataSources extends Component {
                 </div>
             </div>
         )
-    }
 }
-
-export default OpenDataSources;

@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class CodeOfConduct extends Component {
-
-    render() {
-        return(<div> Lunar Verse</div>);
-    }
+export default function CodeOfConduct() {
+    return(<div> Lunar Verse</div>);
 }
 
-export default CodeOfConduct;

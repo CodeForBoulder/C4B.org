@@ -1,14 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class GetInvolved extends Component {
-
-    render() {
-        return(
-            <div>
-                Shining
-            </div>
-        )
-    }
+export default function GetInvolved() {
+    return(
+        <div>
+            Shining
+        </div>
+    )
 }
-
-export default GetInvolved;

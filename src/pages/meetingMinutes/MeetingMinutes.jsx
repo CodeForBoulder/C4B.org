@@ -1,15 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class MeetingMinutes extends Component {
-
-    render() {
-        return(
-            <div>
-                Apalachian, Spring Suit: Subito Allegro
-            </div>
-        )
-    }
-
+export default function MeetingMinutes() {
+    return(
+        <div>
+            Apalachian, Spring Suit: Subito Allegro
+        </div>
+    )
 }
-
-export default MeetingMinutes;

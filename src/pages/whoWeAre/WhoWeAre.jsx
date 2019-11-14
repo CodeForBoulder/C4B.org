@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './WhoWeAre.css';
 
-class WhoWeAre extends Component {
-    render() {
+export default function WhoWeAre() {
         return(
             <div className="container">
                 <div id="who-we-are-div" className="row">
@@ -57,7 +56,4 @@ class WhoWeAre extends Component {
                 </div>
             </div>
         )
-    }
 }
-
-export default WhoWeAre;

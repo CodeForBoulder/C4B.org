@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom';
 import React, {Component} from 'react';
-import { Route, BrowserRouter as Router } from 'react-router-dom'
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import Header from './header/Header'
 import Home from './pages/home/Home';
 import NewEvent from './pages/newEvent/NewEvent'
@@ -19,17 +19,19 @@ import noMatch from './pages/noMatch/noMatch';
 var routing = (
     <Router>
         <div>
-            <Route path="/" component={Home} />
-            <Route path="/new-events" component={NewEvent} />
-            <Route path="/who-we-are" component={WhoWeAre} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/code-of-conduct" component={CodeOfConduct} />
-            <Route path="/meeting-minutes" component={MeetingMinutes} />
-            <Route path="/project-proposals" component={ProjectProposals}/>
-            <Route path="/open-data-sources" component={OpenDataSources}/>
-            <Route path="/funding-sources" component={FundingSources} />
-            <Route path="/get-involved" component={GetInvolved} />
-            <Route component={noMatch} />
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/new-events" component={NewEvent} />
+                <Route exact path="/who-we-are" component={WhoWeAre} />
+                <Route exact path="/projects" component={Projects} />
+                <Route exact path="/code-of-conduct" component={CodeOfConduct} />
+                <Route exact path="/meeting-minutes" component={MeetingMinutes} />
+                <Route exact path="/project-proposals" component={ProjectProposals}/>
+                <Route exact path="/open-data-sources" component={OpenDataSources}/>
+                <Route exact path="/funding-sources" component={FundingSources} />
+                <Route exact path="/get-involved" component={GetInvolved} />
+                <Route component={noMatch} />
+            </Switch>
         </div>
     </Router>
 )

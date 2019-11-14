@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './ProjectProposals.css';
 
-class ProjectProposals extends Component {
-    render() {
+export default function ProjectProposals() {
         return(
             <div className="container">
                 <div id="start-here" className="row">
@@ -51,7 +50,4 @@ class ProjectProposals extends Component {
                 </div>
             </div>
         )
-    }
 }
-
-export default ProjectProposals;

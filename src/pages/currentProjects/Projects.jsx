@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './Projects.css'
 
-class Project extends Component  {
-    render() {
+export default function Project()  {
         return(
             <div className="container">
                 <div id="active-projects-div" row="row">
@@ -51,7 +50,4 @@ class Project extends Component  {
                 </div>
             </div>
         )
-    }
 }
-
-export default Project;

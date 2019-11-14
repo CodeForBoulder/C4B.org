@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Home.css';
 
-class Home extends Component {
-
-  render() {
+export default function Home() {
     return (
       <div className="container">
         <div id="home-welcome" className="row">
@@ -66,8 +64,4 @@ class Home extends Component {
         </div>
       </div>
     )
-  }
-  
 }
-
-export default Home;

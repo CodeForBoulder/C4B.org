@@ -1,15 +1,10 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class FundingSources extends Component {
+export default function FundingSources() {
 
-    render() {
-        return(
-            <div>
-                Spring Wind Skylark
-            </div>
-        )
-    }
-    
+    return(
+        <div>
+            Spring Wind Skylark
+        </div>
+    )
 }
-
-export default FundingSources;
